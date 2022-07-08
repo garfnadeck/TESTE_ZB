@@ -19,10 +19,12 @@ const wrapper = styled.section`
 
   .container-icons {
     position: absolute;
+    display: flex;
     width: 126.76px;
     height: 16.09px;
     left: 343px;
     top: 80.9px;
+    justify-content: space-between;
   }
 `
 
