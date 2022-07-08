@@ -1,0 +1,115 @@
+.App {
+  /* background-color: #ededed; */
+  position: relative;
+  max-width: 1440px;
+  width: 1440px;
+  height: 1128px;
+  margin: 0 auto;
+}
+
+.btn{
+  width: 218px;
+  height: 73px;
+  background-color: #FAD34F;
+  border-radius: 500px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.vector-body {
+  position: absolute;
+  background-color: #fad34f;
+  right: -0.1%;
+  left: 0.1%;
+  border-radius: 50%;
+}
+
+.vector-mouth,
+.vector-mouth-moon-shape {
+  position: absolute;
+}
+
+.vector-mouth {
+  background: #ffffff;
+}
+
+.vector-mouth-moon-shape {
+  border-radius: 50%;
+}
+
+.vector-eye-left,
+.vector-eye-right {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50% 50% 20% 20%;
+}
+
+.vector-eye-left {
+  top: 25.54px;
+  left: 35.53px;
+}
+
+.vector-eye-right {
+  top: 15.54px;
+  left: 50.53px;
+}
+
+.vector-eye-left-shape,
+.vector-eye-right-shape {
+  position: absolute;
+  z-index: 1;
+}
+
+.vector-eye-left-shape,
+.vector-eye-right-shape {
+  top: 0px;
+  left: 0px;
+}
+
+.vector-cloud-body {
+  position: absolute;
+  width: 245.63px;
+  height: 184.32px;
+}
+
+.vector-cloud-one,
+.vector-cloud-two,
+.vector-cloud-three, 
+.vector-cloud-four {
+  position: absolute;
+  background-color: #c6c6c6;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.vector-cloud-four{
+      width: 120px;
+      height: 60px;
+      border-radius: 50%;
+}
+
+.vector-cloud-one {
+  top: 0px;
+  left: 50px;
+}
+
+.vector-cloud-two {
+  top: 30px;
+  left: -20px;
+}
+
+.vector-cloud-three {
+  top: 30px;
+  left: 90px;
+}
+
+.vector-cloud-four{
+  top: 10px;
+  left: -0px;
+}
